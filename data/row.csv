@@ -1,0 +1,15 @@
+POST /user-api/userLogin/loginTcloud
+Host: tcloud.topband-cloud.com
+content-length: 94
+accept: application/json, text/plain, */*
+origin: https://tcloud.topband-cloud.com
+authorization: a82e248d833443d9a457719cff7902d9
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+dnt: 1
+content-type: application/json;charset=UTF-8
+referer: https://tcloud.topband-cloud.com/tcloud/
+accept-encoding: gzip, deflate, br
+accept-language: zh-CN,zh;q=0.9
+cookie: tcloudAdminToken=a82e248d833443d9a457719cff7902d9
+
+{"userName":"phone","password":"number","validateCode":"code"}
